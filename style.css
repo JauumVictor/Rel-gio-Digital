@@ -1,0 +1,128 @@
+* {
+
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+
+  }
+
+p {
+	font-family: "Roboto", sans-serif;
+color: white;
+	font-size: 2.5rem;
+	padding: 2px;
+	
+}
+
+  body {
+    
+    background: linear-gradient(to right, #464747, #2d2e2d);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    
+  }
+  
+  .clock {
+
+      border: 0.1px solid rgb(250, 245, 245, 0.4);
+      box-shadow: 1px 1px 3px black;
+      justify-content: space-evenly;
+      background-color: #191a19;
+      align-items: center;
+      border-radius: 2px;
+      padding: 0 20px; 
+      display: flex;
+      height: 150px;
+      width: 400px;
+
+    }
+
+    .container {
+
+      background-color: #464747;
+      justify-content: space-evenly;
+      align-items: center;
+      display: flex;
+      width: 110px;
+      height: 80px;
+      
+    }
+
+ 
+    .display-1, .display-2{
+        border: 20px;
+
+    }
+
+
+/* Segmentos */
+
+    .segmento {
+        
+        background-color: #373838;
+        border-radius: 5px;
+        display: absolute;
+        height: 5px;
+        width: 30px;
+
+    }
+
+    .segmento-1 {
+ 
+        transform: rotate(90deg) translateX(50px);
+      
+    }
+    
+    .segmento-2 {
+   
+        transform: rotate(90deg) translateX(10px);
+
+    }
+
+    .segmento-3 {
+    
+        transform: translateX(10px) translateY(-16.5px);
+        width: 20px;
+        margin: 9px;
+        
+    }
+
+    .segmento-4 {
+   
+        transform: rotate(90deg) translateY(-19px) translateX(-18px);
+        margin: 9px;
+        
+    }
+
+    .segmento-5 {
+     
+        transform: rotate(90deg) translateY(-19px) translateX(3px);
+        margin: 9px;
+
+    }
+
+    .segmento-6 {
+      
+        transform: translateX(19px) translateY(-28.5px);
+        width: 20px;
+        
+    }
+
+    .segmento-7 {
+        
+        transform: translateX(19px) translateY(-3.5px) ;
+        width: 20px;
+
+    }
+   
+    .active {
+        
+        box-shadow: 1px 0.5px 4px red;
+        background-color: red;
+
+    }
+    
